@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "../images/logo192.png"
 import profile from "../images/avatar.png"
+import "../styles/navbar-style.css"
 
 
 export default function Navbar(){
@@ -12,7 +13,7 @@ export default function Navbar(){
                         <a href="">Home</a>
                     </li>
                     <li>
-                        <a href="">Upperwear</a>
+                        <a href="http://localhost:5000/upperwear">Upperwear</a>
                     </li>
                     <li>
                         <a href="">Lowerwear</a>

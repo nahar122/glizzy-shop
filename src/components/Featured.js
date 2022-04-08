@@ -1,8 +1,9 @@
 import React from "react"
-import pic1 from "../images/xd1.avif"
+import pic1 from "../images/unknown.png"
 import pic2 from "../images/xd2.avif"
 import pic3 from "../images/xd3.avif"
 import pic4 from "../images/xd4.avif"
+import "../styles/featured-style.css"
 
 export default function Featured(num){
 

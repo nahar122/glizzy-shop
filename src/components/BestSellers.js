@@ -1,5 +1,6 @@
 import React from "react"
 import item from "../images/item1.avif"
+import "../styles/best-sellers-style.css"
 
 export default function BestSellers(){
 

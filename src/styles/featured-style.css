@@ -1,0 +1,12 @@
+.featured-container{
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 2vh;
+}
+
+.featured-container > img{
+    max-width: 80vw;
+    max-height: 40vw;
+    width: auto;
+    height: auto;
+}
