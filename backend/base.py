@@ -37,6 +37,12 @@ def read_query(query):
     
     '''
 
+
+def check_if_user_in_db(email, password):
+    query = "SELECT * FROM users WHERE email = '{}' AND password='{}'".format(email, password)
+    res = read_query(query)
+    return res
+
 api = Flask(__name__)
 
 @api.route('/best-sellers')
@@ -48,6 +54,18 @@ def get_best_sellers():
 @api.route('/login', methods=['POST'])
 def handle_login():
     data = request.get_json()
-    query = "SELECT * FROM users WHERE email = '{}' AND password='{}'".format(data['email'], data['password'])
-    res = read_query(query)
+    res = check_if_user_in_db(data['email'], data['password'])
+    return res
+
+@api.route('/create-account', methods=['POST'])
+def handle_create_account():
+    data = request.get_json()
+    user_in_db = True if len(check_if_user_in_db(data['email'], data['password'])['response']) == 1 else False
+    res = None
+    if user_in_db == False:
+        query = "INSERT INTO users VALUES ('{}', '{}')".format(data['email'],data['password'])
+        mycursor.execute(query)
+        res = {'response' : 'Accepted'}
+    else:
+        res = {'response' : 'Rejected'}
     return res

@@ -28,7 +28,9 @@ export default function LoginBox(){
 
     if (formResponse){
         if (formResponse['response'].length === 0){
-
+            console.log(formResponse)
+        }else{
+            console.log(formResponse)
         }
     }
     return(
