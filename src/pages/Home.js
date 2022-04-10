@@ -2,6 +2,7 @@ import React from "react";
 import Featured from "../components/Featured"
 import BestSellers from "../components/BestSellers"
 import Navbar  from "../components/Navbar";
+import Footer from "../components/Footer";
 import '../styles/home.css'
 
 
@@ -29,6 +30,7 @@ export default function Home(){
                 <section>
                     {/* <Featured num={3}/> */}
                 </section>
+                <Footer/>
             </div>
         </div>
     )
