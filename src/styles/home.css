@@ -1,194 +1,191 @@
-
 /* NAVBAR CSS */
 
-.app-container{
+.app-container {
     background-color: #d8d8d8;
-}
-nav {
+  }
+  nav {
     position: sticky;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: white;
-    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%), 0 1px 4px rgb(0 0 0 / 10%);
-
-}
-
-a{
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%),
+      0 1px 4px rgb(0 0 0 / 10%);
+  }
+  
+  a {
     text-decoration: none;
     color: #272727;
-}
-
-a:visited{
+  }
+  
+  a:visited {
     text-decoration: none;
     color: #272727;
-}
-
-a:hover{
-    text-decoration: none;
-    color: #272727; 
-}
-
-a:active{
+  }
+  
+  a:hover {
     text-decoration: none;
     color: #272727;
-}
-
-section{
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  section {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#logo{
+    /* overflow: hidden; */
+  }
+  
+  #logo {
     max-width: 83px;
     max-height: 83px;
-}
-
-#create-account{
+  }
+  
+  #create-account {
     color: white;
     background-color: #d84f53;
     border-radius: 3px;
     padding: 7px;
-}
-
-#create-account:hover{
+  }
+  
+  #create-account:hover {
     background-color: #dd2e33;
     border: 0;
-}
-
-#left-nav{
+  }
+  
+  #left-nav {
     justify-content: left;
     margin-left: 50px;
-}
-
-#middle-nav{
+  }
+  
+  #middle-nav {
     margin-left: 100px;
-}
-
-#right-nav{
+  }
+  
+  #right-nav {
     margin-left: 100px;
-}
-
-.nav-element{
+  }
+  
+  .nav-element {
     padding-top: 5px;
     padding-right: 5px;
     padding-left: 5px;
     padding-bottom: 15px;
     margin-right: 50px;
-}
-
-.middle-nav-element:hover{
+  }
+  
+  .middle-nav-element:hover {
     border-bottom: 2px solid #d84f53;
-    color: #686868
-}
-
-.nav-element:hover{
+    color: #686868;
+  }
+  
+  .nav-element:hover {
     border-bottom: 2px solid #d84f53;
-    color: #686868
-}
-/* NAVBAR CSS */
-
-
-/* FEATURED CSS */
-#grid-container{
+    color: #686868;
+  }
+  /* NAVBAR CSS */
+  
+  /* FEATURED CSS */
+  #grid-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-}
-
-.featured-container img{
+  }
+  
+  .featured-container img {
     /* min-width: 60vw;
-    min-height: 30vw; */
-
-}
-/* FEATURED CSS */
-
-/* BEST SELLER CSS */
-
-.best-seller-container{
+      min-height: 30vw; */
+  }
+  /* FEATURED CSS */
+  
+  /* BEST SELLER CSS */
+  
+  .best-seller-container {
     align-items: center;
     justify-content: center;
     margin: 20px;
     background-color: #d8d8d8;
-}
-
-.best-seller-container img{
+  }
+  
+  .best-seller-container img {
     display: block;
     margin: auto;
-}
-
-.best-seller-description{
+  }
+  
+  .best-seller-description {
     text-align: center;
     color: #242424;
     justify-content: center;
     align-items: center;
-}
-
-.best-seller-img{
+  }
+  
+  .best-seller-img {
     max-width: 300px;
     max-height: 300px;
     min-height: 300px;
-}
-
-.item-name{
+  }
+  
+  .item-name {
     font-size: larger;
     font-weight: 500;
-}
-
-.price{
+  }
+  
+  .price {
     font-size: large;
     font-style: italic;
-}
-
-.add-cart{
+  }
+  
+  .add-cart {
     margin: auto;
     font-size: 18px;
-    background-color:#d84f53;
+    background-color: #d84f53;
     color: white;
     border-radius: 5px;
     max-width: 200px;
     padding-top: 2px;
     padding-bottom: 2px;
-}
-
-.best-seller-add-cart{
+  }
+  
+  .best-seller-add-cart {
     color: white;
     font-size: 30px;
     padding: 10px;
     /* background-color: #4259C3; */
     border-radius: 10px;
-}
-
-/* BEST SELLER LIST CSS */
-
-.best-seller-list-container{
+  }
+  
+  /* BEST SELLER LIST CSS */
+  
+  .best-seller-list-container {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
     background-color: #d8d8d8;
-}
-
-.best-seller-list{
+  }
+  
+  .best-seller-list {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* BEST SELLER LIST CSS */
-
-
-/* LOGIN PAGE CSS */
-
-.login-container{
+  }
+  
+  /* BEST SELLER LIST CSS */
+  
+  /* LOGIN PAGE CSS */
+  
+  .login-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     color: white;
-}
-
-.login-box{
+  }
+  
+  .login-box {
     width: 400px;
     height: 325px;
     background-color: white;
@@ -197,52 +194,51 @@ section{
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
-    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%), 0 1px 4px rgb(0 0 0 / 10%);
-
-}
-
-.login-title{
-    margin-top: 40px;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%),
+      0 1px 4px rgb(0 0 0 / 10%);
+  }
+  
+  .login-title {
     font-size: 40px;
     text-align: center;
     color: #242424;
-}
-
-.login-field-container{
+  }
+  
+  .login-field-container {
     justify-content: center;
     align-items: center;
-}
-
-.login-field{
+  }
+  
+  .login-field {
     width: 70%;
     height: 40px;
     padding: 10px;
-}
-
-.email-field-container{
+  }
+  
+  .email-field-container {
     display: flex;
     justify-content: center;
     margin-top: 10%;
-}
-
-.password-field-container{
+  }
+  
+  .password-field-container {
     display: flex;
     justify-content: center;
     margin-top: 5%;
-}
-
-.flex-label-login{
+  }
+  
+  .flex-label-login {
     display: flex;
     color: black;
-}
-
-.submit-login{
+  }
+  
+  .submit-login {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.submit-login button{
+  }
+  
+  .submit-login button {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -255,10 +251,71 @@ section{
     color: white;
     border-radius: 3px;
     padding: 10px;
-}
-
-.submit-login button:hover{
+  }
+  
+  .submit-login button:hover {
     background-color: #dd2e33;
-    /* color: black; */
-}
-/* LOGIN PAGE CSS */
+  }
+  
+  /* LOGIN PAGE CSS */
+  
+  /* Footer CSS */
+  
+  .footer-container {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    outline: 1.5px solid;
+    outline-color: black;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    justify-content: space-evenly;
+  }
+  
+  .copyright-container {
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .person-container {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .person-container {
+    display: flex;
+    justify-content: center;
+    left: 100px;
+    font-size: 21px;
+  }
+  
+  .linkedin-picture {
+    width: 25px;
+    height: auto;
+  }
+  
+  .github-picture {
+    width: 25px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+  }
+  
+  #footer-logo {
+    min-height: 49px;
+    min-width: 61px;
+  }
+  
+  /* Footer CSS */
