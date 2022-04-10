@@ -1,4 +1,4 @@
-#create-account{
+/* #create-account{
     color: white;
     background-color: #4259C3;
     border-radius: 10px;
@@ -39,18 +39,19 @@ nav{
     background-color: white;
     color: #272727;
     height: 70px;
+    width: 100%;
     /* border-bottom: 1px solid black; */
-    font-weight: 600;
+    /* font-weight: 600;
     font-size: 18px;
-}
+} */
 
-
+/* 
 #logo{
     max-width: 50px;
     max-height: 50px;
-}
+} */
 
-.nav-items-right{
+/* .nav-items-right{
     list-style: none;
     display: flex;
     margin-right: 20px;
@@ -80,4 +81,4 @@ nav{
 #login:hover{
     background-color: rgba(123, 159, 242, 0.3);
     border-radius: 10px;
-}
+}  */
