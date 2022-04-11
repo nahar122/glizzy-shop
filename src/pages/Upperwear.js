@@ -9,7 +9,9 @@ export default function Upperwear(){
     return (
         <div className="upperwear-container">
             <Navbar />
-            <ShopLayout />
+            <div className="content">
+                <ShopLayout />
+            </div>
             <Footer />
         </div>
     )

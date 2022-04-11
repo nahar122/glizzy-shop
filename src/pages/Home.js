@@ -9,29 +9,19 @@ import '../styles/home.css'
 export default function Home(){
 
     return (
-        <div id="home-container">
+        <div>
             <Navbar />
-            <div id="grid-container">
-                <section>
-                    <Featured num={0}/>
-                </section>
-                <section>
-                    <BestSellers/>
-                </section>
-                <section>
-                    {/* <Featured num={1}/> */}
-                </section>
-                <section>
-                    {/* <Featured num={2}/> */}
-                </section>
-                <section>
-                    {/* <BestSellers/> */}
-                </section>
-                <section>
-                    {/* <Featured num={3}/> */}
-                </section>
-                <Footer/>
+            <div class="content">
+                <div id="grid-container">
+                    <section>
+                        <Featured num={0}/>
+                    </section>
+                    <section>
+                        <BestSellers/>
+                    </section>
+                </div>
             </div>
+            <Footer/>
         </div>
     )
 }

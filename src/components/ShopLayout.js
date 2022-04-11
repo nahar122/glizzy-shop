@@ -11,13 +11,6 @@ export default function ShopLayout(){
             <ShopFilter />
             <div className="catalogue-container">
                 <ShopItem />
-                <ShopItem />
-                <ShopItem />
-                <ShopItem />
-                <ShopItem />
-                <ShopItem />
-                <ShopItem />
-                <ShopItem />
             </div>
         </div>
     )
