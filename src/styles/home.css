@@ -1,8 +1,17 @@
 /* NAVBAR CSS */
 
-.app-container {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #272727;
+  }
+
+  .app-container {
     background-color: #d8d8d8;
   }
+
   nav {
     position: sticky;
     display: grid;
@@ -149,12 +158,18 @@
     padding-bottom: 2px;
   }
   
-  .best-seller-add-cart {
+  .add-cart {
     color: white;
-    font-size: 30px;
-    padding: 10px;
-    /* background-color: #4259C3; */
-    border-radius: 10px;
+    background-color: #d84f53;
+    border-radius: 3px;
+    padding: 7px;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .add-cart:hover{
+    background-color: #dd2e33;
   }
   
   /* BEST SELLER LIST CSS */
@@ -263,7 +278,6 @@
   
   .footer-container {
     background-color: rgb(255, 255, 255);
-    position: absolute;
     bottom: 0;
     width: 100%;
     display: grid;
@@ -319,3 +333,94 @@
   }
   
   /* Footer CSS */
+
+
+
+  /* SHOP LAYOUT COMPONENT CSS */
+
+  .shop-layout{
+      display: grid;
+      grid-template-columns: 0.5fr 2fr;
+      /* max-height: 100vw; */
+      min-height: 100%;
+      /* align-items: center;
+      justify-content: center;
+      text-align: center; */
+  }
+
+  /* SHOP LAYOUT COMPONENT CSS */
+
+
+  /* SHOP FILTER COMPONENT CSS */
+
+  .filter-box{
+    height: 400px;
+    width: 200px;
+    background-color: #ff595f;
+    margin-top: 25vh;
+    margin-left: 20%;
+    justify-content: center;
+    border-radius: 5px;
+
+    }
+
+  #browse-by{
+    border-bottom: 2px solid #d84f53;
+    padding-bottom: 7px;
+    font-weight: 600;
+    margin-left: 10%;
+    overflow-wrap: break-word;
+
+}
+
+.filter-options{
+    /* text-align: center; */
+    list-style: none;
+    margin-left: 10%;
+    width: fit-content;
+
+}
+
+.filter-options li{
+    margin-top: 2%;
+    width: fit-content;
+}
+  /* SHOP FILTER COMPONENT CSS */
+
+
+
+  /* SHOP CATALOGUE COMPONENT CSS */
+ 
+  .catalogue-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: center; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  }
+
+  .item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container{
+      height: 50%;
+      width: 50%;
+  }
+
+  #catalogue-item-image{
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+  }
+
+
+  .catalogue-item-description{
+      display: flex;
+  }
+
+
+
+ /* SHOP CATALOGUE COMPONENT CSS */
+ 

@@ -14,7 +14,7 @@ export default function BestSeller(data){
             <div className="best-seller-description">
                 <p className="item-name">{item_name}</p>
                 <p className="price">${item_price}</p>
-                <p className="add-cart">Add to cart</p>
+                <button className="add-cart">Add to cart</button>
                 {/* <p className="best-seller-add-cart">Add to cart</p> */}
             </div>
         </div>

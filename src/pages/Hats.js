@@ -5,7 +5,7 @@ import Navbar  from "../components/Navbar";
 export default function Hats(){
 
     return (
-        <div className="container">
+        <div className="hats-container">
             <Navbar />
         </div>
     )

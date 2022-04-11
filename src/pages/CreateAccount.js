@@ -6,7 +6,7 @@ import CreateAccountBox from "../components/CreateAccountBox";
 export default function CreateAccount(){
 
     return (
-        <div className="container">
+        <div className="create-account-container">
             <Navbar />
             <CreateAccountBox />
         </div>
