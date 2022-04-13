@@ -1,0 +1,14 @@
+.best-seller-list-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8d8;
+  }
+  
+  .best-seller-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

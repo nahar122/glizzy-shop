@@ -1,7 +1,7 @@
 import React from "react"
 // import logo from "/logo192.png"
 import { NavLink } from 'react-router-dom'
-
+import '../styles/navbar.css'
 
 export default function Navbar(){
     return (
@@ -16,7 +16,7 @@ export default function Navbar(){
                         <NavLink className="nav-element middle-nav-element" to='/upperwear'>Upperwear</NavLink>
                         <NavLink className="nav-element middle-nav-element" to='/lowerwear'>Lowerwear</NavLink>
                         <NavLink className="nav-element middle-nav-element" to='/hats'>Hats</NavLink>
-                        <NavLink className="nav-element middle-nav-element" to='/footwear'>Footwear</NavLink>
+                        <NavLink className="nav-element middle-nav-element" to='/misc'>Misc</NavLink>
                     </section>
                     <section id="right-nav">
                         <NavLink className="nav-element" to='/cart'>Cart</NavLink>

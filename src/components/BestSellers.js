@@ -3,6 +3,8 @@ import BestSeller from "./BestSeller"
 import { useState, useEffect } from "react"
 import ItemsCarousel from 'react-items-carousel'
 
+import '../styles/best-sellers.css'
+
 
 export default function BestSellers(){
 

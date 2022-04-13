@@ -1,0 +1,45 @@
+.filter-box {
+  height: 1000px;
+  width: 300px;
+  background-color: White;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  outline: 2px solid;
+  outline-color: black;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.filter-type-box {
+  outline: 1px solid;
+  outline-color: black;
+  display: grid;
+  grid-template-rows: 0.2fr 0.8fr;
+}
+
+.box-titles {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.all-box-selections {
+  display: grid;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  margin-left: 20px;
+}
+
+.filter-item-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-item-container input {
+  display: inline;
+}
+
+.filter-item-container p {
+  display: inline;
+  margin-left: 15px;
+}

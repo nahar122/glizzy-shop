@@ -3,6 +3,7 @@ import Navbar  from "../components/Navbar";
 import ShopFilter from "../components/ShopFilter";
 import ShopLayout from "../components/ShopLayout";
 import Footer from "../components/Footer";
+import '../styles/app.css'
 
 export default function Upperwear(){
 
@@ -10,7 +11,7 @@ export default function Upperwear(){
         <div className="upperwear-container">
             <Navbar />
             <div className="content">
-                <ShopLayout />
+                <ShopLayout name='Upperwear'/>
             </div>
             <Footer />
         </div>

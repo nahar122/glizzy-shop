@@ -1,0 +1,12 @@
+.shop-layout{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  grid-gap: 75px;
+  margin-top: 75px;
+  /* height: 100vh; */
+}
+
+#shop-title{
+  height: min-content;
+  width: min-content;
+}

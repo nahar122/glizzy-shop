@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 // import item from "../images/bottle.png"
+import '../styles/best-seller.css'
 
 export default function BestSeller(data){
 

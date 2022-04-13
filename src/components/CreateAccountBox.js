@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import '../styles/create-account-box.css'
 
 export default function CreateAccountBox(){
 

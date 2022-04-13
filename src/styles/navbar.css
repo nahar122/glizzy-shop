@@ -1,0 +1,83 @@
+nav {
+    position: sticky;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: white;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%), 0 20px 48px rgb(0 0 0 / 5%),
+      0 1px 4px rgb(0 0 0 / 10%);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #272727;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+  }
+  
+  #logo {
+    max-width: 83px;
+    max-height: 83px;
+  }
+  
+  #create-account {
+    color: white;
+    background-color: #d84f53;
+    border-radius: 3px;
+    padding: 7px;
+  }
+  
+  #create-account:hover {
+    background-color: #dd2e33;
+    border: 0;
+  }
+  
+  #left-nav {
+    justify-content: left;
+    margin-left: 50px;
+  }
+  
+  #middle-nav {
+    margin-left: 100px;
+  }
+  
+  #right-nav {
+    margin-left: 100px;
+  }
+  
+  .nav-element {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    margin-right: 50px;
+  }
+  
+  .middle-nav-element:hover {
+    border-bottom: 2px solid #d84f53;
+    color: #686868;
+  }
+  
+  .nav-element:hover {
+    border-bottom: 2px solid #d84f53;
+    color: #686868;
+  }

@@ -3,7 +3,7 @@ import Featured from "../components/Featured"
 import BestSellers from "../components/BestSellers"
 import Navbar  from "../components/Navbar";
 import Footer from "../components/Footer";
-import '../styles/home.css'
+import '../styles/app.css'
 
 
 export default function Home(){

@@ -3,6 +3,7 @@ import React from "react"
 // import pic2 from "../images/xd2.avif"
 // import pic3 from "../images/xd3.avif"
 // import pic4 from "../images/xd4.avif"
+import '../styles/featured.css'
 
 export default function Featured(num){
 

@@ -2,10 +2,11 @@ import React from "react";
 import Navbar  from "../components/Navbar";
 import ShopFilter from "./ShopFilter";
 import ShopItem from "./ShopItem"
+import '../styles/shoplayout.css'
 
+export default function ShopLayout(name){
 
-export default function ShopLayout(){
-
+    console.log(name)
     return (
         <div className="shop-layout">
             <ShopFilter />

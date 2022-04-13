@@ -1,0 +1,59 @@
+.best-seller-container {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #d8d8d8;
+  }
+  
+  .best-seller-container img {
+    display: block;
+    margin: auto;
+  }
+  
+  .best-seller-description {
+    text-align: center;
+    color: #242424;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .best-seller-img {
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+  }
+  
+  .item-name {
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .price {
+    font-size: large;
+    font-style: italic;
+  }
+  
+  .add-cart {
+    margin: auto;
+    font-size: 18px;
+    background-color: #d84f53;
+    color: white;
+    border-radius: 5px;
+    max-width: 200px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .add-cart {
+    color: white;
+    background-color: #d84f53;
+    border-radius: 3px;
+    padding: 7px;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .add-cart:hover{
+    background-color: #dd2e33;
+  }
