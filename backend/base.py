@@ -51,6 +51,30 @@ def get_best_sellers():
     res = read_query(query)
     return res
 
+@api.route('/upperwear')
+def get_upperwear_items():
+    query = ("SELECT name, price, img_path FROM items WHERE category='upperwear'")
+    res = read_query(query)
+    return res
+
+@api.route('/lowerwear')
+def get_lowerwear_items():
+    query = ("SELECT name, price, img_path FROM items WHERE category='lowerwear'")
+    res = read_query(query)
+    return res
+
+@api.route('/hats')
+def get_hats_items():
+    query = ("SELECT name, price, img_path FROM items WHERE category='hat'")
+    res = read_query(query)
+    return res
+
+@api.route('/misc')
+def get_misc_items():
+    query = ("SELECT name, price, img_path FROM items WHERE category='misc'")
+    res = read_query(query)
+    return res
+
 @api.route('/login', methods=['POST'])
 def handle_login():
     data = request.get_json()
@@ -69,3 +93,5 @@ def handle_create_account():
     else:
         res = {'response' : 'Rejected'}
     return res
+
+api.run()

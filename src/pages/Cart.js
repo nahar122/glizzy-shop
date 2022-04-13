@@ -8,6 +8,9 @@ export default function CreateAccount(){
     return (
         <div className="create-account-container">
             <Navbar />
+            <div className="content">
+                
+            </div>
             <Footer />
         </div>
     )

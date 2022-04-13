@@ -8,9 +8,6 @@ import '../styles/best-sellers.css'
 
 export default function BestSellers(){
 
-    const [activeItemIndex, setActiveItemIndex] = useState(0)
-    const chevronWidth = 40;
-
     const [itemData, setItemData] = useState(null)
 
     useEffect( () =>{
@@ -25,11 +22,6 @@ export default function BestSellers(){
                     {itemData && itemData['response'].map( (obj, i) =>{
                         return <BestSeller key={i} data={obj}/>
                     })}
-                {/* <BestSeller />
-                <BestSeller />
-                <BestSeller />
-                <BestSeller />
-                <BestSeller /> */}
             </article>
         </div>
     )

@@ -11,10 +11,12 @@
   }
   
   .best-seller-description {
+    margin-top: 10px;
     text-align: center;
     color: #242424;
     justify-content: center;
     align-items: center;
+    /* padding: 5; */
   }
   
   .best-seller-img {
@@ -26,11 +28,13 @@
   .item-name {
     font-size: larger;
     font-weight: 500;
+    /* padding: 2px; */
   }
   
   .price {
     font-size: large;
     font-style: italic;
+    padding: 2px;
   }
   
   .add-cart {

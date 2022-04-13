@@ -5,13 +5,13 @@ import React from "react"
 // import pic4 from "../images/xd4.avif"
 import '../styles/featured.css'
 
-export default function Featured(num){
+export default function Featured(img){
 
     
     // const arr = [pic1, pic2, pic3, pic4]
     return(
         <div className="featured-container">
-            <img src="images/unknown.png" className="featured-image"/>
+            <img src={img['img']} className="featured-image"/>
         </div>
     )
 

@@ -7,14 +7,25 @@ import '../styles/app.css'
 
 
 export default function Home(){
+    // const [itemData, setItemData] = useState(null)
+
+    // useEffect( () =>{
+    //     fetch("/featured")
+    //     .then(response => response.json())
+    //     .then(data => setItemData(data))
+    // }, []);
 
     return (
         <div>
             <Navbar />
-            <div class="content">
+            <div className="content">
                 <div id="grid-container">
                     <section>
-                        <Featured num={0}/>
+                        
+                        <Featured img={'images/limited_time_banner.png'}/>
+                    </section>
+                    <section>
+                        {/* <Featured img={'images/be_like_the_champions_banner.png'}/> */}
                     </section>
                     <section>
                         <BestSellers/>

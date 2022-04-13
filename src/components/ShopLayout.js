@@ -4,14 +4,17 @@ import ShopFilter from "./ShopFilter";
 import ShopItem from "./ShopItem"
 import '../styles/shoplayout.css'
 
-export default function ShopLayout(name){
+export default function ShopLayout(data){
 
-    console.log(name)
+
     return (
         <div className="shop-layout">
             <ShopFilter />
             <div className="catalogue-container">
-                <ShopItem />
+                {data['data'] && data['data']['response'].map( (obj, i) =>{
+                        return <ShopItem key={i} data={obj}/>
+                    })}
+                {/* <ShopItem data={data}/> */}
             </div>
         </div>
     )

@@ -1,54 +1,23 @@
 import React from "react";
 import '../styles/shopitem.css'
 
-export default function ShopItem(){
+export default function ShopItem(data){
+
+    const obj = data['data']
 
     return (
         <div className="z-container">
             <div className="shop-item">
                 <div className="shop-item-image-container">
-                    <img id="shop-item-image" src="/images/bottle.png" />
+                    <img id="shop-item-image" src={obj['img_path']} />
                 </div>
                 <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
+                    <p className="item-name">{obj['name']}</p>
+                    <p className="price">${obj['price']}</p>
+                    <button className="add-cart">Add to Cart</button>
                 </div>  
             </div>
-            <div className="shop-item">
-                <img id="shop-item-image" src="/images/glizzy_hat.png" />
-                <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
-                </div>  
-            </div>
-            <div className="shop-item">
-                <img id="shop-item-image" src="/images/dont_be_a_weiner_joggers.png" />
-                <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
-                </div>  
-            </div>
-            <div className="shop-item">
-                <img id="shop-item-image" src="/images/taste_of_my_weiner_hoodie.png" />
-                <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
-                </div>  
-            </div>
-            <div className="shop-item">
-                <img id="shop-item-image" src="/images/glizzy_dufflebag.png" />
-                <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
-                </div>  
-            </div>
-            <div className="shop-item">
-                <img id="shop-item-image" src="/images/bottle.png" />
-                <div className="catalogue-item-description">
-                    <p>Item Name</p>
-                    <p>Price</p>
-                </div>  
-            </div>
+            
         </div>
     )
 }
